@@ -3,9 +3,9 @@
 **Project:** AI Project Kit  
 **Document:** Roadmap  
 **Version:** 0.1.0  
-**Status:** Draft  
+**Status:** In Progress  
 **Owner:** Product Owner  
-**Last Updated:** 2026-07-17
+**Last Updated:** 2026-07-18
 
 ---
 
@@ -33,7 +33,7 @@ Establish the core documentation and repository structure for AI Project Kit.
 
 ### Current Task
 
-➡️ **Task 0.6 – Create ROADMAP.md**
+➡️ **Task 0.9 – Create repository scaffold**
 
 ### Tasks
 
@@ -42,50 +42,53 @@ Establish the core documentation and repository structure for AI Project Kit.
 - [x] 0.3 Create Codespace
 - [x] 0.4 Create AGENTS.md
 - [x] 0.5 Create VISION.md
-- [ ] 0.6 Create ROADMAP.md
-- [ ] 0.7 Create PLAYBOOK.md
-- [ ] 0.8 Create DECISIONS.md
+- [x] 0.6 Create ROADMAP.md
+- [x] 0.7 Create PLAYBOOK.md
+- [x] 0.8 Create DEFINITION_OF_DONE.md
 - [ ] 0.9 Create repository scaffold
+- [ ] 0.10 Create CONTRIBUTING.md
+- [ ] 0.11 Create DECISIONS.md template
 
 ### Definition of Done
 
-- Core project documents completed
-- Repository structure established
-- Repository ready to be used as a project template
+- [x] Core project documents completed
+- [ ] Repository structure established
+- [ ] Repository ready to be used as a project template
 
 ---
 
 # Upcoming Sprints
 
-## Sprint 1 – Development Workflow
+## Sprint 1 – GitHub Configuration
 
 ### Goal
 
-Define a repeatable engineering workflow for AI-assisted software development.
+Set up GitHub repository templates and standards for professional collaboration.
 
 ### Tasks
 
-- [ ] Create PLAYBOOK.md
-- [ ] Define Git workflow
-- [ ] Define documentation standards
-- [ ] Define coding standards
-- [ ] Define review process
-- [ ] Finalise Definition of Done
+- [ ] Create issue templates (.github/ISSUE_TEMPLATE/)
+- [ ] Create pull request template (.github/pull_request_template.md)
+- [ ] Define GitHub labels
+- [ ] Document repository settings guide
+- [ ] Add branch protection rules documentation
 
 ---
 
-## Sprint 2 – GitHub Standards
+## Sprint 2 – Development Standards
 
 ### Goal
 
-Prepare the repository for professional collaboration.
+Define and document engineering standards and best practices.
 
 ### Tasks
 
-- [ ] Issue templates
-- [ ] Pull request template
-- [ ] GitHub labels
-- [ ] Repository settings guide
+- [ ] Git workflow documentation
+- [ ] Commit message conventions
+- [ ] Code style guidelines
+- [ ] Documentation standards
+- [ ] Code review process
+- [ ] Testing standards
 
 ---
 
@@ -109,11 +112,11 @@ Create reusable prompts for common development tasks.
 
 ### Goal
 
-Provide ready-to-use project starters.
+Provide ready-to-use project starters for different tech stacks.
 
 ### Tasks
 
-- [ ] Google Apps Script starter
+- [ ] Node.js/TypeScript starter
 - [ ] Python starter
 - [ ] Web application starter
 - [ ] API service starter
@@ -130,6 +133,7 @@ Ideas that may be explored in future versions.
 - Documentation generator
 - Repository health checks
 - Release automation
+- CI/CD pipeline templates
 
 ---
 
