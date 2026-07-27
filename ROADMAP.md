@@ -5,7 +5,7 @@
 **Version:** 0.1.0  
 **Status:** In Progress  
 **Owner:** Product Owner  
-**Last Updated:** 2026-07-18
+**Last Updated:** 2026-07-27
 
 ---
 
@@ -33,7 +33,7 @@ Establish the core documentation and repository structure for AI Project Kit.
 
 ### Current Task
 
-➡️ **Task 0.9 – Create repository scaffold**
+➡️ **Task 0.12 – Review and finalize Sprint 0**
 
 ### Tasks
 
@@ -45,15 +45,15 @@ Establish the core documentation and repository structure for AI Project Kit.
 - [x] 0.6 Create ROADMAP.md
 - [x] 0.7 Create PLAYBOOK.md
 - [x] 0.8 Create DEFINITION_OF_DONE.md
-- [ ] 0.9 Create repository scaffold
-- [ ] 0.10 Create CONTRIBUTING.md
-- [ ] 0.11 Create DECISIONS.md template
+- [x] 0.9 Create repository scaffold
+- [x] 0.10 Create CONTRIBUTING.md
+- [x] 0.11 Create DECISIONS.md template
 
 ### Definition of Done
 
 - [x] Core project documents completed
-- [ ] Repository structure established
-- [ ] Repository ready to be used as a project template
+- [x] Repository structure established
+- [x] Repository ready to be used as a project template
 
 ---
 
