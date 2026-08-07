@@ -1,0 +1,62 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Something isn't working"
+  },
+  {
+    "name": "enhancement",
+    "color": "a2eeef",
+    "description": "New feature or request"
+  },
+  {
+    "name": "documentation",
+    "color": "0075ca",
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "name": "area: api",
+    "color": "cccccc",
+    "description": "Related to API/backend"
+  },
+  {
+    "name": "area: ui",
+    "color": "7057ff",
+    "description": "Related to frontend / UI"
+  },
+  {
+    "name": "priority: critical",
+    "color": "ff0000",
+    "description": "Requires immediate attention"
+  },
+  {
+    "name": "priority: high",
+    "color": "ffdf2a",
+    "description": "High priority"
+  },
+  {
+    "name": "priority: medium",
+    "color": "ffbf00",
+    "description": "Medium priority"
+  },
+  {
+    "name": "priority: low",
+    "color": "85e89d",
+    "description": "Low priority"
+  },
+  {
+    "name": "status: in progress",
+    "color": "0075ca",
+    "description": "Work in progress"
+  },
+  {
+    "name": "status: blocked",
+    "color": "d73a4a",
+    "description": "Blocked by an external factor"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Good for newcomers"
+  }
+]
