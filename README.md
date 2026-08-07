@@ -13,8 +13,8 @@ A comprehensive toolkit for building AI-powered applications with best practices
 
 ### Prerequisites
 
-- Node.js 16+
-- npm or yarn
+- Node.js 18+ (recommended; CI uses Node 18)
+- npm (bundled with Node.js)
 
 ### Installation
 
@@ -24,17 +24,42 @@ cd ai-project-kit
 npm install
 ```
 
-### Running the Project
+Note: Running `npm install` will create a package-lock.json. Commit the lockfile to ensure deterministic installs and to allow CI to use `npm ci`.
+
+### Run locally
+
+The repository includes a minimal Node.js starter scaffold (src/index.js) and a sample Jest test.
+
+Run the project locally:
 
 ```bash
 npm start
 ```
 
-### Running Tests
+Run tests and coverage:
 
 ```bash
 npm test
+npm run test:coverage
 ```
+
+Run linter:
+
+```bash
+npm run lint
+```
+
+### CI
+
+This repository includes a GitHub Actions workflow (.github/workflows/ci.yml) that runs on pushes and PRs to `main`. The workflow:
+
+- checks out the code
+- sets up Node 18
+- runs `npm ci` (requires package-lock.json)
+- runs the linter (currently non-blocking)
+- runs the test suite
+
+If you want lint failures to block CI, update the workflow to fail on lint (remove `|| true` in the lint step).
 
 ## Project Structure
 
@@ -43,7 +68,7 @@ ai-project-kit/
 ├── src/              # Source code
 ├── tests/            # Test files
 ├── docs/             # Documentation
-├── .gitignore        # Git ignore patterns
+├── .github/          # GitHub templates & workflows
 ├── package.json      # Project metadata and dependencies
 └── README.md         # This file
 ```
@@ -52,6 +77,13 @@ ai-project-kit/
 
 - [Architecture](./docs/architecture.md) - System design and components
 - [Contributing](./CONTRIBUTING.md) - Guidelines for contributions
+
+## Next recommended steps
+
+- Commit the generated package-lock.json (run `npm install` locally and commit the lockfile).
+- Add environment example: `.env.example` if your project needs runtime configuration.
+- Add a `scripts/setup.sh` or `scripts/setup.js` to document local dev setup steps (DBs, env vars, etc.).
+- Expand the test suite and add CI checks for coverage if desired.
 
 ## License
 
