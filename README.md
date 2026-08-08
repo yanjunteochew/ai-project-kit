@@ -1,89 +1,68 @@
 # AI Project Kit
 
-A comprehensive toolkit for building AI-powered applications with best practices for architecture, testing, and deployment.
+A stack-agnostic project kit that documents best practices, workflows, and governance for AI-assisted development. This repository provides process, templates, and guidance — teams add their preferred starter code and tooling for the stack they choose.
 
-## Features
+## What this kit provides
 
-- **Modular Architecture**: Well-organized project structure for scalability
-- **Best Practices**: Linting, testing, and documentation standards
-- **AI Integration**: Ready for LLM APIs and AI service integrations
-- **Development Ready**: Pre-configured for rapid prototyping
+- Governance and collaboration documents (VISION, PLAYBOOK, AGENTS, CONTRIBUTING, DEFINITION OF DONE, DECISIONS)
+- Issue and PR templates to standardise triage & contributions
+- Guidance for CI/CD, testing, and release workflows (docs and READMEs)
+- Directory conventions and examples for where to add starter code and tests
 
-## Quick Start
+## How to use this kit
 
-### Prerequisites
-
-- Node.js 18+ (recommended; CI uses Node 18)
-- npm (bundled with Node.js)
-
-### Installation
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yanjunteochew/ai-project-kit.git
 cd ai-project-kit
-npm install
 ```
 
-Note: Running `npm install` will create a package-lock.json. Commit the lockfile to ensure deterministic installs and to allow CI to use `npm ci`.
+2. Choose the technology stack appropriate for your project (Node, Python, Go, Rust, etc.).
+3. Add the starter artifacts for that stack in the recommended locations (see "Project structure").
+4. Update ROADMAP.md and DECISIONS.md to reflect your chosen stack and any architecture decisions.
+5. Implement CI workflows and lockfiles as required by your package manager and team policies.
 
-### Run locally
+Note: This kit intentionally does not include opinionated, language-specific starter artifacts (for example: package.json, src/index.js, or lockfiles). That allows teams to adopt the kit for any stack without needing to remove or refactor an included starter.
 
-The repository includes a minimal Node.js starter scaffold (src/index.js) and a sample Jest test.
+## Features
 
-Run the project locally:
+- Modular architecture for processes and docs
+- Best-practice guidance for collaboration, reviews, and testing
+- AI-first playbook and contributor guidance
+- Development-ready conventions that are intentionally stack-agnostic
 
-```bash
-npm start
-```
-
-Run tests and coverage:
-
-```bash
-npm test
-npm run test:coverage
-```
-
-Run linter:
-
-```bash
-npm run lint
-```
-
-### CI
-
-This repository includes a GitHub Actions workflow (.github/workflows/ci.yml) that runs on pushes and PRs to `main`. The workflow:
-
-- checks out the code
-- sets up Node 18
-- runs `npm ci` (requires package-lock.json)
-- runs the linter (currently non-blocking)
-- runs the test suite
-
-If you want lint failures to block CI, update the workflow to fail on lint (remove `|| true` in the lint step).
-
-## Project Structure
+## Project structure (example)
 
 ```
 ai-project-kit/
-├── src/              # Source code
-├── tests/            # Test files
-├── docs/             # Documentation
-├── .github/          # GitHub templates & workflows
-├── package.json      # Project metadata and dependencies
-└── README.md         # This file
+├── AGENTS.md            # AI/human collaboration guidance
+├── README.md            # This file
+├── VISION.md            # Project vision
+├── ROADMAP.md           # Roadmap and sprint tasks
+├── DECISIONS.md         # Architecture Decision Records (ADRs)
+├── docs/                # Documentation and optional starter guides
+├── .github/             # Templates & workflows (workflows may be examples)
+├── tests/               # Test guidance and optional tests for example starters
+├── scripts/             # Utility scripts (optional)
+└── <optional-starters>/ # e.g. starters/nodejs, starters/python (add as needed)
 ```
+
+The `<optional-starters>/` area is intentionally optional. Add starter projects for the stacks your team needs (and document them under docs/starter-guides.md if helpful).
 
 ## Documentation
 
-- [Architecture](./docs/architecture.md) - System design and components
-- [Contributing](./CONTRIBUTING.md) - Guidelines for contributions
+- See CONTRIBUTING.md for contribution guidelines
+- See PLAYBOOK.md and AGENTS.md for development workflow and responsibilities
+- See DEFINITION_OF_DONE.md for completion criteria
 
-## Next recommended steps
+## Next recommended steps when creating a new project from this kit
 
-- Commit the generated package-lock.json (run `npm install` locally and commit the lockfile).
-- Add environment example: `.env.example` if your project needs runtime configuration.
-- Add a `scripts/setup.sh` or `scripts/setup.js` to document local dev setup steps (DBs, env vars, etc.).
-- Expand the test suite and add CI checks for coverage if desired.
+- Add starter artifacts appropriate to your chosen stack (e.g., package.json & package-lock.json for Node; pyproject.toml & poetry.lock for Python). Commit the lockfile recommended by your package manager.
+- Create CI workflow files in .github/workflows that reflect your chosen toolchain.
+- Add an `.env.example` if runtime configuration is required.
+- Add scripts/setup.sh or scripts/setup.md to document local dev setup steps (databases, env vars, etc.).
+- Optionally add example starter folders under `starters/` and document them in `docs/starter-guides.md`.
 
 ## License
 
