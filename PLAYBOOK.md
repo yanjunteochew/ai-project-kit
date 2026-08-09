@@ -4,6 +4,8 @@
 
 Version: 1.0
 
+This AI Project Kit is intentionally stack-agnostic: it provides governance, workflows, and templates for collaboration, and does not include opinionated, language-specific starter code. Teams should add starter artifacts appropriate to their chosen stack.
+
 ---
 
 # Purpose
