@@ -2,6 +2,8 @@
 
 # AI Project Kit
 
+This AI Project Kit is intentionally stack-agnostic: it provides governance, workflows, and templates for collaboration, and does not include opinionated, language-specific starter code. Teams should add starter artifacts appropriate to their chosen stack.
+
 > This repository is built using an AI-first, Human-led development workflow.
 
 The goal of this repository is not only to build software, but to build software in a repeatable, maintainable, and collaborative way with AI teammates.
@@ -285,4 +287,3 @@ The template should continuously evolve.
 # Final Principle
 
 Build software that your future self will enjoy maintaining.
-
