@@ -29,39 +29,15 @@ Note: This AI Project Kit is intentionally stack-agnostic. It provides governanc
 
 # Current Sprint
 
-## Sprint 1 – GitHub Configuration
-
-### Goal
-
-Set up GitHub repository templates and standards for professional collaboration.
-
-### Current Task
-
-➡️ **Task 1.1 – Create issue templates**
-
-### Tasks
-
-- [x] 1.1 Create issue templates (.github/ISSUE_TEMPLATE/)
-- [x] 1.2 Create pull request template (.github/pull_request_template.md)
-- [x] 1.3 Define GitHub labels
-- [x] 1.4 Document repository settings guide
-- [x] 1.5 Add branch protection rules documentation
-
-### Definition of Done
-
-- [x] GitHub templates configured
-- [x] Collaboration standards documented
-- [x] Repository configured for professional workflows
-
----
-
-# Upcoming Sprints
-
 ## Sprint 3 – AI Prompt Library
 
 ### Goal
 
 Create reusable prompts for common development tasks.
+
+### Current Task
+
+➡️ **Task 3.1 – Create a prompt catalog and examples**
 
 ### Tasks
 
@@ -71,7 +47,15 @@ Create reusable prompts for common development tasks.
 - [ ] Refactoring prompt
 - [ ] Architecture review prompt
 
+### Definition of Done
+
+- [ ] Prompt catalog created and documented
+- [ ] Example prompts provided for common tasks
+- [ ] Issues created for remaining prompt backlog
+
 ---
+
+# Upcoming Sprints
 
 ## Sprint 4 – Starter Templates
 
@@ -108,6 +92,39 @@ Ideas that may be explored in future versions.
 ---
 
 # Completed Sprints
+
+## Sprint 1 – GitHub Configuration ✅
+
+### Outcome
+
+Set up GitHub templates and repository governance to support professional collaboration.
+
+### What Went Well
+
+- Issue templates created and committed (.github/ISSUE_TEMPLATE/)
+- Pull request template created (.github/pull_request_template.md)
+- GitHub labels defined and documented
+- Repository settings guide written
+- Branch protection rules documented and recommended settings described
+- ROADMAP.md and README.md updated to reflect stack-agnostic intent
+
+### Lessons Learned
+
+- Consistent templates reduce triage friction for contributors
+- Explicit repository settings guidance helps maintainers configure new projects faster
+- Keeping the kit stack-agnostic avoids forcing a specific technology choice
+
+### Improvements to AI Project Kit
+
+- Improved onboarding for contributors via issue/PR templates
+- Clearer repository governance and settings guidance
+- Foundation laid for optional starter examples in future sprints
+
+### Repository Version
+
+v0.2.0
+
+---
 
 ## Sprint 0 – Foundation ✅
 
