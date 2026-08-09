@@ -5,7 +5,7 @@
 **Version:** 0.2.0  
 **Status:** In Progress  
 **Owner:** Product Owner  
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-08-09
 
 ---
 
@@ -23,6 +23,10 @@ At the beginning of every development session:
 
 ---
 
+Note: This AI Project Kit is intentionally stack-agnostic. It provides governance, workflows, and templates for collaboration — not opinionated language-specific starter code. Teams should add starter artifacts (package manifests, lockfiles, starter source, CI workflows) appropriate to their chosen stack. Starter templates may be provided as optional examples in future sprints, but are not included by default.
+
+---
+
 # Current Sprint
 
 ## Sprint 1 – GitHub Configuration
@@ -37,16 +41,16 @@ Set up GitHub repository templates and standards for professional collaboration.
 
 ### Tasks
 
-- [ ] 1.1 Create issue templates (.github/ISSUE_TEMPLATE/)
-- [ ] 1.2 Create pull request template (.github/pull_request_template.md)
+- [x] 1.1 Create issue templates (.github/ISSUE_TEMPLATE/)
+- [x] 1.2 Create pull request template (.github/pull_request_template.md)
 - [ ] 1.3 Define GitHub labels
 - [ ] 1.4 Document repository settings guide
 - [ ] 1.5 Add branch protection rules documentation
 
 ### Definition of Done
 
-- [ ] GitHub templates configured
-- [ ] Collaboration standards documented
+- [x] GitHub templates configured
+- [x] Collaboration standards documented
 - [ ] Repository configured for professional workflows
 
 ---
@@ -73,14 +77,19 @@ Create reusable prompts for common development tasks.
 
 ### Goal
 
-Provide ready-to-use project starters for different tech stacks.
+Provide optional example starter templates that teams can adopt for common tech stacks.
+
+### Notes
+
+- Starter templates are optional examples, not required contents of the kit.
+- The kit itself remains intentionally stack-agnostic; teams should add their own starter artifacts when creating a project from this kit.
 
 ### Tasks
 
-- [ ] Node.js/TypeScript starter
-- [ ] Python starter
-- [ ] Web application starter
-- [ ] API service starter
+- [ ] Provide example Node.js starter (starters/nodejs) — optional
+- [ ] Provide example Python starter (starters/python) — optional
+- [ ] Provide web application starter examples — optional
+- [ ] Provide API service starter examples — optional
 
 ---
 
