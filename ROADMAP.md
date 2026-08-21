@@ -5,7 +5,7 @@
 **Version:** 0.2.0  
 **Status:** In Progress  
 **Owner:** Product Owner  
-**Last Updated:** 2026-08-09
+**Last Updated:** 2026-08-21
 
 ---
 
@@ -23,7 +23,7 @@ At the beginning of every development session:
 
 ---
 
-Note: This AI Project Kit is intentionally stack-agnostic. It provides governance, workflows, and templates for collaboration — not opinionated language-specific starter code. Teams should add starter artifacts (package manifests, lockfiles, starter source, CI workflows) appropriate to their chosen stack. Starter templates may be provided as optional examples in future sprints, but are not included by default.
+Note: This AI Project Kit is intentionally stack-agnostic. It provides governance, workflows, and templates for collaboration — not opinionated language-specific starter code. Teams should add specific starter artifacts when creating a project from this kit.
 
 ---
 
@@ -41,16 +41,16 @@ Create reusable prompts for common development tasks.
 
 ### Tasks
 
-- [ ] Feature implementation prompt
-- [ ] Code review prompt
-- [ ] Bug fix prompt
-- [ ] Refactoring prompt
-- [ ] Architecture review prompt
+- [x] Feature implementation prompt
+- [x] Code review prompt
+- [x] Bug fix prompt
+- [x] Refactoring prompt
+- [x] Architecture review prompt
 
 ### Definition of Done
 
-- [ ] Prompt catalog created and documented
-- [ ] Example prompts provided for common tasks
+- [x] Prompt catalog created and documented (prompts/CATALOG.md)
+- [x] Example prompts provided for common tasks (prompts/examples/)
 - [ ] Issues created for remaining prompt backlog
 
 ---
