@@ -1,7 +1,7 @@
 # Prompt Catalog
 
 Purpose
-- A curated catalog of reusable prompts for common development tasks. Each prompt entry includes intent, required inputs, the prompt text (with placeholders), recommended model/settings, an example input, and the expected response format.
+- A concise catalog of essential reusable prompts for common development tasks. Each prompt entry includes intent, required inputs, the prompt text (with placeholders), recommended model/settings, an example input, and the expected response format.
 
 How to use
 1. Pick the prompt entry that matches your task.
@@ -19,22 +19,20 @@ Prompt entry template
 - Expected response format
 - Notes / Safety checks
 
-Included prompt types
+Minimal included prompt types
 - Feature implementation (prompts/examples/feature-implementation.md)
 - Code review (prompts/examples/code-review.md)
 - Bug fix (prompts/examples/bug-fix.md)
-- Refactoring (prompts/examples/refactor.md)
-- Architecture review (prompts/examples/architecture-review.md)
 
 Contributing
-- Add new prompts under prompts/examples/.
+- Add new prompts under prompts/examples/ only when they provide clear, repeatable value.
 - Follow the Prompt entry template.
 - Include at least one example input and expected output format.
 - Open an issue for large or opinionated prompts before adding them.
 - Use label: area:prompts for prompt-related issues/PRs.
 
 Backlog & roadmap
-- See ROADMAP.md — Sprint 3 (AI Prompt Library). Link this catalog from ROADMAP.md once added.
+- This minimal catalog satisfies Sprint 3.1. Additional prompt types can be added later as optional expansions.
 
 License & attribution
 - Prompts in this repo are licensed under the repository MIT license. If a prompt is derived from external sources, add attribution.
