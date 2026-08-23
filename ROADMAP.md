@@ -5,7 +5,7 @@
 **Version:** 0.2.0  
 **Status:** In Progress  
 **Owner:** Product Owner  
-**Last Updated:** 2026-08-21
+**Last Updated:** 2026-08-23
 
 ---
 
@@ -23,39 +23,11 @@ At the beginning of every development session:
 
 ---
 
-Note: This AI Project Kit is intentionally stack-agnostic. It provides governance, workflows, and templates for collaboration — not opinionated language-specific starter code. Teams should add specific starter artifacts when creating a project from this kit.
+Note: This AI Project Kit is intentionally stack-agnostic. It provides governance, workflows, and templates for collaboration — not opinionated language-specific starter code. Teams should add starter artifacts appropriate for their chosen tech stack when they use this kit as a template.
 
 ---
 
 # Current Sprint
-
-## Sprint 3 – AI Prompt Library
-
-### Goal
-
-Create reusable prompts for common development tasks.
-
-### Current Task
-
-➡️ **Task 3.1 – Create a prompt catalog and examples**
-
-### Tasks
-
-- [x] Feature implementation prompt
-- [x] Code review prompt
-- [x] Bug fix prompt
-- [x] Refactoring prompt
-- [x] Architecture review prompt
-
-### Definition of Done
-
-- [x] Prompt catalog created and documented (prompts/CATALOG.md)
-- [x] Example prompts provided for common tasks (prompts/examples/)
-- [ ] Issues created for remaining prompt backlog
-
----
-
-# Upcoming Sprints
 
 ## Sprint 4 – Starter Templates
 
@@ -77,9 +49,11 @@ Provide optional example starter templates that teams can adopt for common tech 
 
 ---
 
-# Future Ideas
+# Upcoming Sprints
 
-Ideas that may be explored in future versions.
+## Sprint 5 – Future Expansions
+
+Ideas for future sprints:
 
 - AI memory integration
 - Multi-agent workflows
@@ -92,6 +66,73 @@ Ideas that may be explored in future versions.
 ---
 
 # Completed Sprints
+
+## Sprint 3 – AI Prompt Library ✅
+
+### Outcome
+
+Successfully created a reusable prompt library for common development tasks.
+
+### What Went Well
+
+- Prompt catalog created and documented (prompts/CATALOG.md)
+- Five essential example prompts provided for common tasks:
+  - Feature implementation prompt
+  - Code review prompt
+  - Bug fix prompt
+  - Refactoring prompt
+  - Architecture review prompt
+- Clear contributing guidelines established for future prompt expansions
+- Minimal, focused approach aligned with stack-agnostic philosophy
+
+### Lessons Learned
+
+- Optional expansions don't require upfront issue creation; they can be added incrementally based on actual demand
+- Bare-minimum prompt library provides immediate value without over-engineering
+- Contributing guidelines provide sufficient process for future contributors to add new prompts
+
+### Improvements to AI Project Kit
+
+- Teams now have reusable prompts for common AI-assisted development tasks
+- Clear structure for extending the prompt library in the future
+- Established best practices for prompt documentation and versioning
+
+### Repository Version
+
+v0.2.0
+
+---
+
+## Sprint 2 – Development Standards ✅
+
+### Outcome
+
+Successfully documented key development standards for template users.
+
+### What Went Well
+
+- Created clear Git workflow documentation with branching strategy
+- Established Conventional Commits standard for clean commit history
+- Documented code style guidelines with language-specific examples
+- Focused on bare-minimum essentials rather than comprehensive documentation
+
+### Lessons Learned
+
+- Bare-minimum approach delivers value faster
+- Focus on most impactful standards first (git workflow, commits, style)
+- Template users appreciate practical, actionable guidelines
+
+### Improvements to AI Project Kit
+
+- Teams now have clear development standards to follow
+- Git workflow and commit conventions prevent common mistakes
+- Code style guidelines promote consistency across projects
+
+### Repository Version
+
+v0.2.0
+
+---
 
 ## Sprint 1 – GitHub Configuration ✅
 
@@ -150,37 +191,6 @@ Successfully established core documentation and repository structure for AI Proj
 - Added project structure clarity
 - Established foundation for future sprints
 - Created reusable template for AI-powered projects
-
-### Repository Version
-
-v0.2.0
-
----
-
-## Sprint 2 – Development Standards ✅
-
-### Outcome
-
-Successfully documented key development standards for template users.
-
-### What Went Well
-
-- Created clear Git workflow documentation with branching strategy
-- Established Conventional Commits standard for clean commit history
-- Documented code style guidelines with language-specific examples
-- Focused on bare-minimum essentials rather than comprehensive documentation
-
-### Lessons Learned
-
-- Bare-minimum approach delivers value faster
-- Focus on most impactful standards first (git workflow, commits, style)
-- Template users appreciate practical, actionable guidelines
-
-### Improvements to AI Project Kit
-
-- Teams now have clear development standards to follow
-- Git workflow and commit conventions prevent common mistakes
-- Code style guidelines promote consistency across projects
 
 ### Repository Version
 
